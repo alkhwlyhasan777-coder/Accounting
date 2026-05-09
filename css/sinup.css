@@ -1,0 +1,49 @@
+*{
+    font-family: "Cairo", 'bootstrap-icons' !important;
+}
+.container-fluid{
+    background:linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    margin:0 auto;
+    padding: 2rem;
+
+}
+.form-login{
+    width: 35%;
+    margin:1rem  auto   ;
+    padding: 20px;
+    color: #ffffff98;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .form-login {
+        width: 90%;
+    }
+    .container-fluid {
+        padding: 1rem;
+        margin: 0;
+    }
+}
+input{
+    background: #ffffffdf !important;
+}
+#togglePassword{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.signup-row {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+}
+.signup-link { color: #8b9cff; cursor: pointer; text-decoration: none; }
+
+
+/* 
+    
+    
+ */

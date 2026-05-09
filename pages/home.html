@@ -1,0 +1,996 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta  name="description"  content="منصة تعليمية متخصصة في المحاسبة والمالية — تعلم البورصة والأوراق المالية والمحاسبة باحتراف" />
+        <meta  name="keywords"  content="محاسبة, مالية, بورصة, أوراق مالية, أسهم, محاسبة مالية, محاسبة تكاليف" />
+        <meta name="author" content="Finance Academy" />
+        <meta  property="og:title"  content="أكاديمية المالية — تعلم المحاسبة والمالية باحتراف" />
+        <meta  property="og:description"  content="منصة تعليمية متخصصة في المحاسبة والمالية" />
+        <meta property="og:type" content="website" />
+        <title>أكاديمية المالية | تعلم المحاسبة والمالية باحتراف</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link  href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Poppins:wght@300;400;600;700;800&display=swap"  rel="stylesheet" />
+        <!-- Font Awesome -->
+        <link    rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+        <!-- AOS -->
+        <link    rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+        <!-- Css style -->
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+    <!-- ===== NAVBAR ===== -->
+        <nav id="navbar">
+            <div class="nav-inner">
+                <div class="nav-logo">
+                  <div class="nav-logo-icon"> أكاديمية </div>
+                  <span>المحاسبة</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#borsa">البورصة</a></li>
+                    <li><a href="#securities">الأوراق المالية</a></li>
+                    <li><a href="#stocks">أنواع الأسهم</a></li>
+                    <li>
+                        <a href="#materials">
+                            المواد المحاسبية
+                            <i class="fas fa-chevron-down" style="font-size: 0.65rem"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li>
+                            <a href="#materials"
+                            ><i class="fas fa-chart-bar"></i> المحاسبة المالية</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#materials"
+                            ><i class="fas fa-calculator"></i> محاسبة عامة</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#materials"
+                            ><i class="fas fa-coins"></i> محاسبة التكاليف</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#materials"
+                            ><i class="fas fa-book"></i> المحاسبة المتوسطة 1</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#materials"
+                            ><i class="fas fa-book-open"></i> المحاسبة المتوسطة 2</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#materials"
+                            ><i class="fas fa-chart-line"></i> الأسواق المالية</a
+                            >
+                        </li>
+                        </ul>
+                    </li>
+                    <li><a href="#faq">أهم الأسئلة</a></li>
+                </ul>
+                <div class="nav-right">
+                    <div class="mode-toggle" id="modeToggle" title="تبديل الوضع">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <div class="hamburger" id="hamburger">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="sgin-login">
+                        <a href="../sginup.html" class="btn btn-outline">سجل الآن</a>
+                        <a href="../login.html" class="btn btn-gold">تسجيل الدخول</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu" id="mobileMenu">
+                    <a href="#borsa">البورصة</a>
+                    <a href="#securities">الأوراق المالية</a>
+                    <a href="#stocks">أنواع الأسهم</a>
+                    <a href="#materials" class="mobile-dropdown">▸ المحاسبة المالية</a>
+                    <a href="#materials" class="mobile-dropdown">▸ محاسبة عامة</a>
+                    <a href="#materials" class="mobile-dropdown">▸ محاسبة التكاليف</a>
+                    <a href="#materials" class="mobile-dropdown">▸ المحاسبة المتوسطة 1</a>
+                    <a href="#materials" class="mobile-dropdown">▸ المحاسبة المتوسطة 2</a>
+                    <a href="#faq">أهم الأسئلة</a>
+                    <div class="sgin-login-nav sgin-login">
+                      <a href="../sginup.html" class="btn btn-outline sgin">سجل الآن</a>
+                      <a href="../login.html" class="btn btn-gold login">تسجيل الدخول</a>
+                    </div>
+            </div>
+        </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="bg-orb hero-orb-1"></div>
+            <div class="bg-orb hero-orb-2"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="hero-inner">
+            <div class="hero-content">
+                <div class="hero-badge"><span></span> منصة تعليمية متخصصة رقم 1</div>
+                <h1 class="hero-title">
+                    تعلم <span class="highlight">المحاسبة</span><br />
+                والمالية باحتراف        
+                </h1>
+                <p class="hero-subtitle">
+                    منصتك الأولى لتعلم المحاسبة والأسواق المالية بأسلوب منظم ومبسط — من
+                    البورصة إلى الأوراق المالية وكل ما يخص المحاسبة .   
+                </p>
+                <div class="hero-btns">
+                    <a href="#home-content" class="btn btn-gold">   
+                            <i class="fas fa-rocket"></i> ابدأ التعلم</a>
+                    <a href="#materials" class="btn btn-outline">
+                        <i class="fas fa-book-open"></i> تصفح المواد
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <span class="stat-num" data-target="250">0</span>
+                        <div class="stat-label">مقالة تعليمية</div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num" data-target="120">0</span>
+                        <div class="stat-label">درس شامل</div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num" data-target="8500">0</span>
+                        <div class="stat-label">طالب مستفيد</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="float-icon fi-1"><i class="fas fa-chart-line"></i></div>
+                <div class="float-icon fi-2"><i class="fas fa-coins"></i></div>
+                <div class="float-icon fi-3"><i class="fas fa-university"></i></div>
+                <div class="dashboard-card dash-sm-1">
+                    <div class="dash-label">مؤشر السوق</div>
+                    <div class="dash-value">+2.4%</div>
+                    <div class="dash-change">
+                    <i class="fas fa-arrow-up"></i> ارتفاع اليوم
+                    </div>
+                </div>
+                <div class="dashboard-card dash-main">
+                    <div class="dash-label">أداء المحفظة</div>
+                    <div class="dash-value" style="font-size: 1.8rem">24,850</div>
+                    <div class="dash-change">
+                        <i class="fas fa-arrow-up"></i> +1,230 هذا الشهر
+                    </div>
+                    <div class="dash-chart">
+                        <div class="chart-bars" id="heroBars">
+                            <div class="bar" style="height: 40%"></div>
+                            <div class="bar" style="height: 60%"></div>
+                            <div class="bar" style="height: 45%"></div>
+                            <div class="bar gold" style="height: 80%"></div>
+                            <div class="bar" style="height: 55%"></div>
+                            <div class="bar gold" style="height: 90%"></div>
+                            <div class="bar" style="height: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-card dash-sm-2">
+                    <div class="dash-label">إجمالي الطلاب</div>
+                    <div class="dash-value">8,500+</div>
+                    <div class="dash-change" style="color: var(--gold)">
+                        <i class="fas fa-star"></i> منصة موثوقة
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== HOME CONTENT ===== -->
+    <section id="home-content" class="section">
+      <div class="container">
+        <h2 class="section-title">ما هي <span>المحاسبة</span>؟</h2>
+        <div class="gold-line"></div>
+        <p class="section-subtitle">
+          فهم المفاهيم الأساسية للمحاسبة هو الخطوة الأولى نحو الإتقان المالي
+        </p>
+        <div class="content-cards">
+          <div class="glass content-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+            <h3 class="card-title">ما هي المحاسبة؟</h3>
+            <p class="card-desc">
+              المحاسبة هي عملية تسجيل وتصنيف وتلخيص المعاملات المالية لتقديم
+              معلومات دقيقة تساعد في اتخاذ القرارات الاقتصادية السليمة.
+            </p>
+            <a href="#" class="read-more"
+              >اقرأ المزيد <i class="fas fa-arrow-left"></i
+            ></a>
+          </div>
+          <div
+            class="glass content-card"
+            data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="card-icon"><i class="fas fa-quote-right"></i></div>
+            <h3 class="card-title">تعريفات المحاسبة</h3>
+            <p class="card-desc">
+              تتعدد تعريفات المحاسبة بين العلماء والهيئات المهنية. فهي "لغة
+              الأعمال" وفق تعريف البعض، وعلم قائم بذاته وفق آخرين.
+            </p>
+            <a href="#" class="read-more"
+              >اقرأ المزيد <i class="fas fa-arrow-left"></i
+            ></a>
+          </div>
+          <div
+            class="glass content-card"
+            data-aos="fade-up"
+            data-aos-delay="200">
+            <div class="card-icon"><i class="fas fa-star"></i></div>
+            <h3 class="card-title">معلومات مهمة</h3>
+            <p class="card-desc">
+              تشمل المحاسبة عدة فروع متخصصة: المحاسبة المالية، محاسبة التكاليف،
+              المحاسبة الإدارية، والمراجعة — كل منها يخدم هدفًا محددًا.
+            </p>
+            <a href="#" class="read-more"
+              >اقرأ المزيد <i class="fas fa-arrow-left"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ===== BORSA ===== -->
+    <section
+      id="borsa"
+      class="section"
+      style="position: relative; overflow: hidden">
+      <div class="bg-orb borsa-orb"></div>
+      <div class="container" style="position: relative; z-index: 1">
+        <h2 class="section-title">سوق <span>البورصة</span></h2>
+        <div class="gold-line"></div>
+        <div class="borsa-grid" style="margin-top: 30px">
+          <div class="borsa-text" data-aos="fade-right">
+            <h3>ما هي البورصة وكيف تعمل؟</h3>
+            <p>
+              البورصة هي سوق منظم يتم فيه تداول الأوراق المالية كالأسهم
+              والسندات. تعمل كمنصة وسيطة بين المستثمرين والشركات، مما يتيح تمويل
+              الأعمال وتداول الأصول بشفافية وكفاءة عالية.
+            </p>
+            <p>
+              يلعب سوق الأوراق المالية دورًا محوريًا في الاقتصاد الوطني، إذ يعكس
+              الحالة العامة للاقتصاد ويوفر أدوات استثمارية متنوعة.
+            </p>
+            <div class="borsa-stats">
+              <div class="bstat" data-aos="zoom-in" data-aos-delay="100">
+                <div class="bstat-num">+12%</div>
+                <div class="bstat-label">متوسط العائد السنوي</div>
+              </div>
+              <div class="bstat" data-aos="zoom-in" data-aos-delay="200">
+                <div class="bstat-num">500+</div>
+                <div class="bstat-label">شركة مدرجة</div>
+              </div>
+              <div class="bstat" data-aos="zoom-in" data-aos-delay="300">
+                <div class="bstat-num">24/5</div>
+                <div class="bstat-label">ساعات التداول</div>
+              </div>
+              <div class="bstat" data-aos="zoom-in" data-aos-delay="400">
+                <div class="bstat-num">3M+</div>
+                <div class="bstat-label">مستثمر نشط</div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-left">
+            <div class="chart-container">
+              <div class="chart-header">
+                <div class="chart-title">مؤشر السوق الرئيسي</div>
+                <div class="chart-badge">+3.2% ↑</div>
+              </div>
+              <svg
+                class="line-chart"
+                viewBox="0 0 400 160"
+                xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#c9a84c" stop-opacity="0.3" />
+                    <stop offset="100%" stop-color="#c9a84c" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+                <path
+                  d="M0,130 Q40,110 80,90 T160,70 T240,50 T320,40 T400,20"
+                  fill="none"
+                  stroke="#c9a84c"
+                  stroke-width="2.5"
+                  stroke-linecap="round" />
+                <path
+                  d="M0,130 Q40,110 80,90 T160,70 T240,50 T320,40 T400,20 L400,160 L0,160Z"
+                  fill="url(#chartGrad)" />
+                <circle cx="400" cy="20" r="5" fill="#c9a84c" />
+                <circle cx="320" cy="40" r="3" fill="rgba(201,168,76,0.5)" />
+                <circle cx="240" cy="50" r="3" fill="rgba(201,168,76,0.5)" />
+              </svg>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  font-size: 0.75rem;
+                  color: var(--text-muted);
+                  margin-top: 8px;
+                ">
+                <span>يناير</span><span>مارس</span><span>يونيو</span
+                ><span>سبتمبر</span><span>ديسمبر</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ===== SECURITIES ===== -->
+    <section
+      id="securities"
+      class="section"
+      style="background: var(--navy-mid)">
+      <div class="container">
+        <h2 class="section-title">الأوراق <span>المالية</span></h2>
+        <div class="gold-line"></div>
+        <p class="section-subtitle">
+          تعرف على أنواع الأوراق المالية المختلفة ودور كل منها في الأسواق
+          المالية
+        </p>
+        <div class="sec-cards">
+          <div class="glass sec-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="sec-icon"><i class="fas fa-certificate"></i></div>
+            <h4>الأسهم</h4>
+            <p>
+              حصة ملكية في شركة مساهمة تمنح صاحبها حقوقًا في الأرباح والتصويت.
+              تُعد الأسهم من أكثر أدوات الاستثمار شيوعًا وعائدًا على المدى
+              الطويل.
+            </p>
+            <span class="sec-tag">ملكية</span>
+          </div>
+          <div class="glass sec-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="sec-icon">
+              <i class="fas fa-file-invoice-dollar"></i>
+            </div>
+            <h4>السندات</h4>
+            <p>
+              أدوات دين تُصدرها الشركات أو الحكومات لتمويل مشاريعها. يحصل حاملها
+              على فائدة دورية ويسترد رأس المال عند الاستحقاق.
+            </p>
+            <span class="sec-tag">دين</span>
+          </div>
+          <div class="glass sec-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="sec-icon"><i class="fas fa-layer-group"></i></div>
+            <h4>صناديق الاستثمار</h4>
+            <p>
+              تجمع أموال المستثمرين لإدارتها بشكل احترافي في محفظة متنوعة من
+              الأصول. توفر التنويع وتقليل المخاطر للمستثمر الفردي.
+            </p>
+            <span class="sec-tag">تنويع</span>
+          </div>
+          <div class="glass sec-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="sec-icon"><i class="fas fa-handshake"></i></div>
+            <h4>المشتقات المالية</h4>
+            <p>
+              عقود مالية تستمد قيمتها من أصل آخر كالأسهم أو السلع أو العملات.
+              تستخدم للتحوط ضد المخاطر أو للمضاربة.
+            </p>
+            <span class="sec-tag">مشتقات</span>
+          </div>
+          <div class="glass sec-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="sec-icon"><i class="fas fa-exchange-alt"></i></div>
+            <h4>الأوراق التجارية</h4>
+            <p>
+              أدوات قصيرة الأجل تُصدرها الشركات لتمويل احتياجاتها التشغيلية
+              اليومية. تتسم بالسيولة العالية وآجال استحقاق قصيرة.
+            </p>
+            <span class="sec-tag">قصير الأجل</span>
+          </div>
+          <div class="glass sec-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="sec-icon"><i class="fas fa-landmark"></i></div>
+            <h4>أذون الخزانة</h4>
+            <p>
+              أوراق مالية حكومية قصيرة الأجل تُعد من أكثر الاستثمارات أمانًا.
+              تُصدر بخصم عن القيمة الاسمية ولا تحمل فوائد دورية.
+            </p>
+            <span class="sec-tag">حكومي</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ===== STOCKS ===== -->
+    <section id="stocks" class="section">
+      <div class="container">
+        <h2 class="section-title">أنواع <span>الأسهم</span></h2>
+        <div class="gold-line"></div>
+        <p class="section-subtitle">
+          اكتشف الفروق الجوهرية بين أنواع الأسهم وكيف تؤثر على استراتيجيتك
+          الاستثمارية
+        </p>
+        <div class="stocks-grid">
+          <div class="glass stock-card" data-aos="zoom-in" data-aos-delay="0">
+            <div class="stock-icon" style="color: var(--gold)">
+              <i class="fas fa-crown"></i>
+            </div>
+            <h4>الأسهم الممتازة</h4>
+            <p>
+              تمنح حاملها أولوية في توزيع الأرباح والأصول عند التصفية. عائدها
+              ثابت ومنتظم مما يجعلها مناسبة للمستثمرين المحافظين.
+            </p>
+            <div class="progress-wrap">
+              <div class="progress-label">
+                <span>مستوى الأمان</span><span>85%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" data-width="85"></div>
+              </div>
+            </div>
+          </div>
+          <div class="glass stock-card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="stock-icon" style="color: var(--gold)">
+              <i class="fas fa-users"></i>
+            </div>
+            <h4>الأسهم العادية</h4>
+            <p>
+              تمنح حق التصويت والمشاركة في الأرباح. أرباحها متغيرة وترتفع مع
+              نجاح الشركة، مناسبة للمستثمرين الراغبين في النمو.
+            </p>
+            <div class="progress-wrap">
+              <div class="progress-label">
+                <span>إمكانية النمو</span><span>75%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" data-width="75"></div>
+              </div>
+            </div>
+          </div>
+          <div class="glass stock-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="stock-icon" style="color: var(--gold)">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h4>أسهم النمو</h4>
+            <p>
+              تنتمي لشركات في مرحلة توسع سريع وتعيد استثمار أرباحها بدل توزيعها.
+              عوائدها ضخمة على المدى البعيد مع مخاطر أعلى.
+            </p>
+            <div class="progress-wrap">
+              <div class="progress-label">
+                <span>إمكانية العائد</span><span>92%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" data-width="92"></div>
+              </div>
+            </div>
+          </div>
+          <div class="glass stock-card" data-aos="zoom-in" data-aos-delay="300">
+            <div class="stock-icon" style="color: var(--gold)">
+              <i class="fas fa-hand-holding-usd"></i>
+            </div>
+            <h4>أسهم التوزيعات</h4>
+            <p>
+              تُصدرها شركات ناضجة تُوزع نسبة كبيرة من أرباحها بانتظام. مثالية
+              للمستثمرين الذين يبحثون عن دخل دوري منتظم.
+            </p>
+            <div class="progress-wrap">
+              <div class="progress-label">
+                <span>الدخل الدوري</span><span>88%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" data-width="88"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ===== MATERIALS ===== -->
+    <section id="materials" class="section" style="background: var(--navy-mid)">
+      <div class="container">
+        <h2 class="section-title">المواد <span>المحاسبية</span></h2>
+        <div class="gold-line"></div>
+        <p class="section-subtitle">
+          مواد تعليمية شاملة ومنظمة لكل مستويات الدراسة المحاسبية
+        </p>
+        <div class="mat-grid">
+          <div class="glass mat-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="mat-card-header">
+              <div class="mat-icon"><i class="fas fa-chart-bar"></i></div>
+              <h4>المحاسبة المالية</h4>
+            </div>
+            <p>
+              تتناول إعداد القوائم المالية وفق المعايير الدولية IFRS —
+              الميزانية، قائمة الدخل، قائمة التدفقات النقدية.
+            </p>
+            <div class="mat-btn"><i class="fas fa-play"></i> ابدأ المادة</div>
+          </div>
+          <div class="glass mat-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="mat-card-header">
+              <div class="mat-icon"><i class="fas fa-calculator"></i></div>
+              <h4>محاسبة عامة</h4>
+            </div>
+            <p>
+              الأساسيات الشاملة للمحاسبة: القيد المزدوج، دورة المحاسبة، الحسابات
+              الختامية، وإعداد ميزان المراجعة.
+            </p>
+            <div class="mat-btn"><i class="fas fa-play"></i> ابدأ المادة</div>
+          </div>
+          <div class="glass mat-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="mat-card-header">
+              <div class="mat-icon"><i class="fas fa-coins"></i></div>
+              <h4>محاسبة التكاليف</h4>
+            </div>
+            <p>
+              تحليل التكاليف وتبويبها وتحديد تكلفة المنتج. تشمل أنظمة التكاليف
+              المختلفة وتحليل نقطة التعادل.
+            </p>
+            <div class="mat-btn"><i class="fas fa-play"></i> ابدأ المادة</div>
+          </div>
+          <div class="glass mat-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="mat-card-header">
+              <div class="mat-icon"><i class="fas fa-book"></i></div>
+              <h4>المحاسبة المتوسطة 1</h4>
+            </div>
+            <p>
+              تعمق في محاسبة الأصول الثابتة والمخزون والذمم المدينة وفق المعايير
+              المحاسبية الدولية.
+            </p>
+            <div class="mat-btn"><i class="fas fa-play"></i> ابدأ المادة</div>
+          </div>
+          <div class="glass mat-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="mat-card-header">
+              <div class="mat-icon"><i class="fas fa-book-open"></i></div>
+              <h4>المحاسبة المتوسطة 2</h4>
+            </div>
+            <p>
+              الالتزامات، حقوق الملكية، عقود الإيجار، ضرائب الدخل المؤجلة وأدوات
+              مالية متقدمة.
+            </p>
+            <div class="mat-btn"><i class="fas fa-play"></i> ابدأ المادة</div>
+          </div>
+          <div class="glass mat-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="mat-card-header">
+              <div class="mat-icon"><i class="fas fa-chart-line"></i></div>
+              <h4>الأسواق المالية</h4>
+            </div>
+            <p>
+              هيكل الأسواق المالية، أدوات الاستثمار، آليات التسعير، كفاءة السوق
+              ونظريات التحليل المالي.
+            </p>
+            <div class="mat-btn"><i class="fas fa-play"></i> ابدأ المادة</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="section">
+      <div class="container">
+        <h2 class="section-title">أهم الأسئلة في <span>المحاسبة</span></h2>
+        <div class="gold-line"></div>
+        <p class="section-subtitle">
+          إجابات شاملة على أكثر الأسئلة المحاسبية تداولًا بين الطلاب والمهتمين
+        </p>
+        <div class="faq-search-wrap">
+          <!-- <i class="fas fa-search faq-search-icon"></i> -->
+          <input
+            type="text"
+            class="faq-search"
+            id="faqSearch"
+            placeholder="ابحث عن سؤال..." />
+        </div>
+        <div class="faq-list" id="faqList">
+          <div class="faq-item">
+            <div class="faq-q">
+              ما الفرق بين المحاسبة المالية والمحاسبة الإدارية؟
+              <div class="faq-icon"><i class="fas fa-plus"></i></div>
+            </div>
+            <div class="faq-a">
+              المحاسبة المالية تُعنى بإعداد القوائم المالية للأطراف الخارجية
+              كالمستثمرين والدائنين وفق معايير محددة. أما المحاسبة الإدارية
+              فتُعنى بتوفير معلومات للإدارة الداخلية لدعم القرار، وليست ملزمة
+              بمعايير موحدة.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">
+              ما هو مبدأ القيد المزدوج في المحاسبة؟
+              <div class="faq-icon"><i class="fas fa-plus"></i></div>
+            </div>
+            <div class="faq-a">
+              القيد المزدوج هو الأساس في المحاسبة، ويقوم على أن كل عملية مالية
+              لها جانبان: مدين ودائن بقيمة متساوية. هذا يضمن توازن معادلة
+              المحاسبة: الأصول = الخصوم + حقوق الملكية في جميع الأوقات.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">
+              ما هي القوائم المالية الأساسية؟
+              <div class="faq-icon"><i class="fas fa-plus"></i></div>
+            </div>
+            <div class="faq-a">
+              القوائم المالية الأساسية أربع: الميزانية العمومية (المركز المالي)،
+              قائمة الدخل (الأرباح والخسائر)، قائمة التدفقات النقدية، وقائمة
+              حقوق الملكية. تقدم معًا صورة شاملة عن الوضع المالي للمؤسسة.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">
+              ما الفرق بين التكلفة الثابتة والمتغيرة؟
+              <div class="faq-icon"><i class="fas fa-plus"></i></div>
+            </div>
+            <div class="faq-a">
+              التكلفة الثابتة لا تتغير بتغير حجم الإنتاج كالإيجار ورواتب
+              الإدارة. التكلفة المتغيرة تتناسب مع حجم الإنتاج كتكلفة المواد
+              الخام. فهم هذا الفرق أساسي في محاسبة التكاليف وتحليل نقطة التعادل.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">
+              ما هي نقطة التعادل وكيف تُحسب؟
+              <div class="faq-icon"><i class="fas fa-plus"></i></div>
+            </div>
+            <div class="faq-a">
+              نقطة التعادل هي مستوى الإنتاج الذي تتساوى عنده الإيرادات الكلية مع
+              التكاليف الكلية، أي لا ربح ولا خسارة. تُحسب بقسمة التكاليف الثابتة
+              على الفرق بين سعر البيع للوحدة والتكلفة المتغيرة للوحدة.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">
+              ما هو الاستهلاك ولماذا نحتسبه؟
+              <div class="faq-icon"><i class="fas fa-plus"></i></div>
+            </div>
+            <div class="faq-a">
+              الاستهلاك هو التوزيع المنتظم لتكلفة الأصل الثابت على مدة حياته
+              الإنتاجية. نحتسبه لمطابقة التكاليف مع الإيرادات وفق مبدأ المقابلة،
+              ولتمثيل التآكل الفعلي في قيمة الأصل خلال الفترة المحاسبية.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">
+              ما الفرق بين السهم والسند؟
+              <div class="faq-icon"><i class="fas fa-plus"></i></div>
+            </div>
+            <div class="faq-a">
+              السهم يمثل حق ملكية في الشركة، وصاحبه شريك يتحمل المخاطر ويشارك في
+              الأرباح. أما السند فهو أداة دين، وصاحبه دائن يحصل على فائدة دورية
+              ثابتة ويسترد أصل المبلغ عند الاستحقاق بصرف النظر عن أرباح الشركة.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+        <!-- ===== FOOTER ===== -->
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <div class="nav-logo-icon">م</div>
+                            أكاديمية <span>المالية</span>
+                        </div>
+                        <p class="footer-desc">
+                            منصة تعليمية متخصصة في المحاسبة والأسواق المالية. نهدف إلى تبسيط
+                            العلوم المالية وتقديمها بأسلوب احترافي وسهل الفهم لجميع المستويات.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-link"
+                                ><i class="fab fa-telegram"></i
+                            ></a>
+                            <a href="#" class="social-link"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                            <a href="#" class="social-link"
+                                ><i class="fab fa-linkedin"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h5>روابط سريعة</h5>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#borsa"><i class="fas fa-arrow-left"></i> البورصة</a>
+                            </li>
+                            <li>
+                                <a href="#securities"
+                                ><i class="fas fa-arrow-left"></i> الأوراق المالية</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#stocks"
+                                ><i class="fas fa-arrow-left"></i> أنواع الأسهم</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#materials"
+                                ><i class="fas fa-arrow-left"></i> المواد المحاسبية</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#faq"
+                                ><i class="fas fa-arrow-left"></i> الأسئلة الشائعة</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>تواصل معنا</h5>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i
+                            ><span>info@finance-academy.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i><span>+20 123 456 7890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i><span>مصر — القاهرة</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i><span>السبت – الخميس: 9ص – 9م</span>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h5>النشرة البريدية</h5>
+                        <p
+                        style="
+                            color: var(--text-muted);
+                            font-size: 0.88rem;
+                            line-height: 1.8;
+                            margin-bottom: 14px;
+                        ">
+                        اشترك للحصول على أحدث المقالات والمواد المحاسبية مجانًا.
+                        </p>
+                        <div class="newsletter-form">
+                            <input
+                                type="email"
+                                class="newsletter-input"
+                                placeholder="بريدك الإلكتروني" />
+                            <button class="newsletter-btn"title="btn">
+                                <a href="../sginup.html"><i class="fas fa-paper-plane"></i></a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>© 2025 أكاديمية المالية — جميع الحقوق محفوظة</span>
+                    <span>صُنع بـ ❤️ للطلاب العرب</span>
+                </div>
+            </div>
+        </footer>
+
+    <!-- ===== FLOATING BUTTONS ===== -->
+        <a
+            href="https://wa.me/201127846533"
+            class="whatsapp-btn"
+            target="_blank"
+            rel="noopener">
+            <i class="fab fa-whatsapp"></i>
+            <span class="wa-tooltip">تواصل عبر واتساب</span>
+        </a>
+        <div class="back-top" id="backTop"><i class="fas fa-chevron-up"></i></div>
+        <!-- AOS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+        <script>
+            /* === AOS Init === */
+            AOS.init({
+                duration: 600, 
+                once: true, 
+                offset: 60 
+                });
+
+            /* === Navbar scroll === */
+            const navbar = document.getElementById("navbar");
+            const navLinks = document.querySelectorAll(".nav-links a");
+            window.addEventListener("scroll", () => {
+                navbar.classList.toggle("scrolled", window.scrollY > 60);
+                // Back to top
+                document
+                .getElementById("backTop")
+                .classList.toggle("show", window.scrollY > 400);
+                // Active link
+                const sections = document.querySelectorAll("section[id]");
+                let current = "";
+                sections.forEach((s) => {
+                if (window.scrollY >= s.offsetTop - 140) current = s.id;
+                });
+                navLinks.forEach((a) => {
+                a.classList.remove("active");
+                if (a.getAttribute("href") === "#" + current)
+                    a.classList.add("active");
+                });
+            });
+
+            /* === Hamburger === */
+            const hamburger = document.getElementById("hamburger");
+            const mobileMenu = document.getElementById("mobileMenu");
+            hamburger.addEventListener("click", () => {
+                hamburger.classList.toggle("open");
+                mobileMenu.classList.toggle("open");
+            });
+            mobileMenu.querySelectorAll("a").forEach((a) => {
+                a.addEventListener("click", () => {
+                hamburger.classList.remove("open");
+                mobileMenu.classList.remove("open");
+                });
+            });
+
+            /* === Mode Toggle === */
+            const modeToggle = document.getElementById("modeToggle");
+            let isDark = true;
+            modeToggle.addEventListener("click", () => {
+                isDark = !isDark;
+                document.body.classList.toggle("light-mode", !isDark);
+                modeToggle.innerHTML = isDark
+                ? '<i class="fas fa-moon"></i>'
+                : '<i class="fas fa-sun"></i>';
+            });
+
+            /* === Back to Top === */
+            document
+                .getElementById("backTop")
+                .addEventListener("click", () =>
+                window.scrollTo({ top: 0, behavior: "smooth" }),
+                );
+
+            /* === Counter Animation === */
+            function animateCounter(el, target) {
+                let start = 0;
+                const duration = 2000;
+                const step = (timestamp) => {
+                if (!start) start = timestamp;
+                const progress = Math.min((timestamp - start) / duration, 1);
+                const val = Math.floor(progress * target);
+                el.textContent = val >= 1000 ? (val / 1000).toFixed(1) + "K" : val;
+                if (progress < 1) requestAnimationFrame(step);
+                else
+                    el.textContent =
+                    target >= 1000 ? (target / 1000).toFixed(1) + "K" : target;
+                };
+                requestAnimationFrame(step);
+            }
+            const observer = new IntersectionObserver(
+                (entries) => {
+                entries.forEach((e) => {
+                    if (e.isIntersecting) {
+                    const target = parseInt(e.target.dataset.target);
+                    animateCounter(e.target, target);
+                    observer.unobserve(e.target);
+                    }
+                });
+                },
+                { threshold: 0.5 },
+            );
+            document
+                .querySelectorAll("[data-target]")
+                .forEach((el) => observer.observe(el));
+
+            /* === Progress Bars === */
+            const progObs = new IntersectionObserver(
+                (entries) => {
+                entries.forEach((e) => {
+                    if (e.isIntersecting) {
+                    e.target.style.width = e.target.dataset.width + "%";
+                    progObs.unobserve(e.target);
+                    }
+                });
+                },
+                { threshold: 0.5 },
+            );
+            document
+                .querySelectorAll(".progress-fill")
+                .forEach((el) => progObs.observe(el));
+
+            /* === FAQ Accordion === */
+            document.querySelectorAll(".faq-q").forEach((q) => {
+                q.addEventListener("click", () => {
+                const item = q.parentElement;
+                const isOpen = item.classList.contains("active");
+                document
+                    .querySelectorAll(".faq-item")
+                    .forEach((i) => i.classList.remove("active"));
+                if (!isOpen) item.classList.add("active");
+                });
+            });
+
+            /* === FAQ Search === */
+            document
+                .getElementById("faqSearch")
+                .addEventListener("input", function () {
+                const query = this.value.toLowerCase().trim();
+                document.querySelectorAll(".faq-item").forEach((item) => {
+                    const text = item.textContent.toLowerCase();
+                    item.style.display = text.includes(query) ? "" : "none";
+                });
+                });
+
+            /* === GSAP Hero === */
+            gsap.registerPlugin(ScrollTrigger);
+            gsap.from(".hero-badge", {
+                opacity: 0,
+                y: 30,
+                duration: 0.8,
+                delay: 0.2,
+            });
+            gsap.from(".hero-title", {
+                opacity: 0,
+                y: 40,
+                duration: 0.9,
+                delay: 0.4,
+            });
+            gsap.from(".hero-subtitle", {
+                opacity: 0,
+                y: 30,
+                duration: 0.8,
+                delay: 0.6,
+            });
+            gsap.from(".hero-btns", { opacity: 0, y: 30, duration: 0.8, delay: 0.8 });
+            gsap.from(".stat-card", {
+                opacity: 0,
+                y: 30,
+                stagger: 0.15,
+                duration: 0.7,
+                delay: 1,
+            });
+            gsap.from(".dashboard-card", {
+                opacity: 0,
+                scale: 0.9,
+                stagger: 0.2,
+                duration: 0.9,
+                delay: 0.5,
+            });
+
+            /* === Glow on mouse move in hero === */
+            document.getElementById("hero").addEventListener("mousemove", (e) => {
+                const { clientX: x, clientY: y } = e;
+                const { innerWidth: w, innerHeight: h } = window;
+                const xpct = (x / w - 0.5) * 20;
+                const ypct = (y / h - 0.5) * 20;
+                gsap.to(".hero-visual", {
+                x: xpct,
+                y: ypct,
+                duration: 0.8,
+                ease: "power2.out",
+                });
+            });
+
+            /* === Section fade-in via GSAP ScrollTrigger === */
+            gsap.utils.toArray(".section").forEach((sec) => {
+                gsap.from(sec, {
+                opacity: 0,
+                y: 40,
+                duration: 0.8,
+                scrollTrigger: { trigger: sec, start: "top 85%", once: true },
+                });
+            });
+
+            /* === Smooth scroll for all anchor links === */
+            document.querySelectorAll('a[href^="#"]').forEach((a) => {
+                a.addEventListener("click", (e) => {
+                const target = document.querySelector(a.getAttribute("href"));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+                });
+            });
+        </script>
+        <script type="module" src="../js/sinup.js"></script>
+        <script type="module" src="../js/main.js"></script>
+  </body>
+</html>

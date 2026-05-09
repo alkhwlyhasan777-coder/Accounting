@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/login.css ">
+</head>
+<body>
+        <div class="login-wrapper">
+        <div class="login-card">
+            <div class="login-logo">
+            <i class="ti ti-bolt" style="font-size:22px; color:#fff;" aria-hidden="true"></i>
+            </div>
+            <p class="login-title">Welcome back</p>
+            <p class="login-sub">Sign in to continue to your account</p>
+
+            <div class="field-group">
+            <label class="field-label">Email</label>
+            <div class="field-wrap">
+                <input class="field-input email" type="email" placeholder="email" />
+                <i class="ti ti-mail field-icon" aria-hidden="true"></i>
+            </div>
+            </div>
+            <div class="field-group">
+            <label class="field-label">Password</label>
+            <div class="field-wrap">
+                <input class="field-input password" type="password" placeholder="password" id="pwInput" />
+                <i class="ti ti-eye field-icon" id="togglePassword" aria-label="Toggle password visibility"></i>
+            </div>
+            </div>
+            <div class="forgot-row">
+            <a class="forgot-link">Forgot password?</a>
+            </div>
+            <button class="btn-login">Sign in</button>
+            <div class="divider">
+            <div class="divider-line"></div>
+            <span class="divider-text">or continue with</span>
+            <div class="divider-line"></div>
+            </div>
+            <div class="social-row">
+            <button class="btn-social">
+                <i class="ti ti-brand-google" style="font-size:16px;" aria-hidden="true"></i> Google
+            </button>
+            <button class="btn-social">
+                <i class="ti ti-brand-github" style="font-size:16px;" aria-hidden="true"></i> GitHub
+            </button>
+            </div>
+            <p class="signup-row">Don't have an account? <a class="signup-link" href="./sginup.html">Sign up</a></p>
+        </div>
+        </div>
+        <script>
+            const toggle = document.getElementById('togglePassword');
+            const pw = document.getElementById('pwInput');
+            toggle.addEventListener('click', () => {
+                const isText = pw.type === 'text';
+                pw.type = isText ? 'password' : 'text';
+                toggle.className = isText ? 'ti ti-eye field-icon' : 'ti ti-eye-off field-icon';
+            });
+        </script>
+        <script src="./js/login.js"></script>
+    </body>
+</html>
